@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root {
-    --primary-color:#0FA3B1;
-    --seconday-color:#F1BB87;
-    --accent1-color:#0FA3B1;
-    --accent2-color:#0FA3B1;
+    --primary-color:#ABE188;
+    --seconday-color:#F7EF99;
+    --accent1-color:#F1BB87;
+    --accent2-color:#F78E69;
 
     --heading-font:'Bebas Neue',sans-serif;
     --paragraph-front:'Roboto Slab',serif;
