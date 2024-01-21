@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root {
+    --primary-color:0FA3B1;
+    --seconday-color:D9E5D6;
+    --accent1-color:EDDEA4;
+    --accent2-color:F7A072;
+
+    --heading-font:'Bebas Neue',sans-serif;
+    --paragraph-front:'Roboto Slab'serif;
+
+    --nav-background-color-:ABE188;
+    --nav-hover-color:F7EF99;
+    --nav-hover-link-color:F1BB87;
+    --nav-hover-background-color:F78E69;
+}
+
+body {
+    font-family: var(--paragraph-front);
+    max-width: 960px;
+    padding: 20px;
+    }
+h1, h2, h3, h4, h5, h6 {
+    font-family:var(--heading-front)
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color)
+}
+p {
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color-);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-hover-link-color);
+    text-decoration:none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color:var(--nav-hover-link-color);
+}
+nav a :hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
