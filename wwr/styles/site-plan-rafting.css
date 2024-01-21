@@ -7,7 +7,7 @@
     --accent2-color:F7A072;
 
     --heading-font:'Bebas Neue',sans-serif;
-    --paragraph-front:'Roboto Slab'serif;
+    --paragraph-front:'Roboto Slab',serif;
 
     --nav-background-color-:ABE188;
     --nav-hover-color:F7EF99;
@@ -21,7 +21,7 @@ body {
     padding: 20px;
     }
 h1, h2, h3, h4, h5, h6 {
-    font-family:var(--heading-front)
+    font-family:var(--heading-front);
 }
 
 header {
