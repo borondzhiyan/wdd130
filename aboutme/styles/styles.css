@@ -23,7 +23,9 @@ main img {
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30px hwb(174 0% 33%);
+    box-shadow: 0 0 30px hwb(224 0% 33%);
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 p {
     padding: 0;
@@ -69,7 +71,7 @@ main img {
 aside h2 {
     position: absolute;
     top: 47px;
-    left: 185px;
+    left: 140px;
 }
 h3 {
     color: #0da855;
