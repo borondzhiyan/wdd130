@@ -62,7 +62,7 @@ main img {
     float: right;
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: solid 1px steelblue;
     padding: 2px;
     box-shadow: 0 0 30 px gray;
     margin: 0 0 1rem 1rem;
