@@ -39,9 +39,7 @@ h1 {
     margin-top: -700px;
     margin-left: 100px;
     color: rgb(225, 213, 34);
-h2 {
-    font-family:var(---paragraph-front);
-}
+
 }
 header {
     padding: 20px;
@@ -52,7 +50,7 @@ p {
 }
 nav {
     background-color: var(--nav-background-color-);
-    font-size: 2rem;
+    font-size: 1.8rem;
     display: flex;
 }
 .hero {
