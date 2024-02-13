@@ -179,6 +179,9 @@ figcaption {
     justify-content: flex-end;
     gap: 10px;
 }
+.sociallinks img {
+    max-width: 35px;
+}
 .copyright {
     text-align: center;
 }
