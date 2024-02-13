@@ -157,8 +157,17 @@ article {
     max-width: 100%;
 	object-fit: cover;
     height: 100%;
-	 
 }
+figure {
+    border: thin #c0c0c0 solid;
+}
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
 .footer{
     display: grid;
     grid-template-columns: 1fr max-content;
