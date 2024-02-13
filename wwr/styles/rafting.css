@@ -11,10 +11,10 @@ main {
 	margin: 2rem auto;
     	}
 :root {
-    --primary-color:#ABE188;
-    --seconday-color:#F7EF99;
-    --accent1-color:#F1BB87;
-    --accent2-color:#F78E69;
+    --primary-color:#4281A4;
+    --seconday-color:#48A9A6;
+    --accent1-color:#E4DFDA;
+    --accent2-color:#D4B483;
 
     --heading-font:'Bebas Neue',sans-serif;
     --paragraph-front:'Roboto Slab',serif;
@@ -28,8 +28,8 @@ body {
     font-family: var(--paragraph-front);
   
     padding: 20px;
-    color: rgb(112, 133, 195);
-    background-color: antiquewhite;
+    color: rgb(60, 88, 173);
+    background-color: rgb(253, 253, 253);
     }
 
     /* img {
@@ -135,6 +135,10 @@ article {
     position:relative;
     float: right;
 }
+.abc-text{
+    color: var(--nav-hover-color);
+}
+
 .history-title {
     text-align: center;
 }
