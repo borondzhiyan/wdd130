@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Sergey Borondzhiyan">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- <meta name="description" content="About the company and the business"> -->
+    <link rel="stylesheet" href="styles/quiz.css">
+    <title> Basic HTML and CSS Quiz</title>
+</head>
+<body>
+    <header>
+        <h1> &#x2611 Basic HTML and CSS Quiz </h1>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>The Quiz Starts Here</legend>
+                <div class="form-item column2">
+                <label for="q1">Which HTML tag is used to define the structure of an HTML document?:</label><br>
+                <!--<label> Full Name: <input type="text" name="fullname"></label>-->
+                <input type="text" id="q1" name="question1" value="Write your answer here"><br>
+                </div>
+                <div>
+                    <label for="q2">What is the purpose of the HTML &lt;meta&gt tag?</label><br><br>
+                    <textarea id="q2" name="question2" rows="1" cols="57" placeholder="Put some text"></textarea>
+                </div>
+                <div class="form-item column2">
+                
+                </div>
+                <div class="form-item column1">
+                    <label for="q3">What is the purpose of the What is the purpose of the &lt;head&gt element in an HTML document? element in an HTML document?</label><br>
+                    <select id="q3"name="question3">
+                        <option value="meta-info">It contains meta-information about the document</option>
+                        <option value="main-content">It defines the main content of the document</option>
+                        <option value="structure">It specifies the structure of the document</option>
+                        <option value="title">It defines the document's title</option>
+                    </select>
+                    </div>
+                
+                </div>
+                
+                <div class="form-item column1">
+                    <label for="q4">What is the default value of BORDER attribute of HTML table?</label>
+                    <img src="images/capture.jpg" alt="capture">
+                    <input type="number" id="q4" name="question4" min="1" max="10" />
+                </div>
+                <button type="submit">Submit Poll</button>
+            </fieldset>
+            
+            
+                  
+        </form>
+    </main>
+    <footer>
+        <p>© 2024 | HTML Form - User Poll Activity | Sergey Bororndzhiyan</p>
+    </footer>
+</body>
+</html>
