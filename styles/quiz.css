@@ -83,6 +83,12 @@ footer {
     display: grid;
     align-items: center;
 }
+/* image indents 0 comes for the upper margin */
+.pixels {
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .column1 {
     grid-template-columns: 1fr;
