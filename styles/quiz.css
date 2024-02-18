@@ -46,6 +46,10 @@ legend {
 label,input,button,select,textarea {
     font-family: Roboto, Arial, sans-serif;
 }
+
+textarea {
+    resize: none;
+}
 label {
     text-align: center;
 }
