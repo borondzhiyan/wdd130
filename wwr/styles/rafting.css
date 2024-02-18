@@ -266,11 +266,23 @@ button:hover {background-color: darkgreen;}
 .form-group {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 20px;
 }
 
 .contact-input {
     width: 100%;
     margin-top: 10px;
     box-sizing: border-box;
+}
+/* employees photos */
+.employee-grid{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns:repeat(3, 1fr);
+    gap:10px
+}
+.employee img{
+    max-width: 100%;
+	object-fit: cover;
+    height: 100%;
 }
