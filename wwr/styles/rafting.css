@@ -237,6 +237,13 @@ input[type="checkbox"]{
     height: 22px;
     vertical-align: bottom;
 }
+
+textarea#q2 {
+    width: 100%;
+    resize: none;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
 button {
     margin: .5rem;
     background-color: navy;
@@ -247,3 +254,23 @@ button {
     font-size: 1.2rem;
 }
 button:hover {background-color: darkgreen;}
+
+.purpose {
+    padding: 0;
+}
+
+.email-label {
+    text-align: left;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.contact-input {
+    width: 100%;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
