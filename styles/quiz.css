@@ -49,6 +49,7 @@ label,input,button,select,textarea {
 
 textarea {
     resize: none;
+    width: 100%;
 }
 label {
     text-align: center;
