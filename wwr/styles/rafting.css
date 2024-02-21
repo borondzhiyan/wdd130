@@ -286,3 +286,21 @@ button:hover {background-color: darkgreen;}
 	object-fit: cover;
     height: 100%;
 }
+/* index page */
+.hero-index-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.hero-index-grid img{
+    max-width: 100%;
+	object-fit: cover;
+    height: 100%;
+}
+.ca-rivers {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.rafting-history {
+    text-align: left;
+}
+
